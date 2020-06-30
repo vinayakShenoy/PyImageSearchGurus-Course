@@ -12,11 +12,17 @@ import numpy as np
 
 # In[8]:
 
+def show_image():
+    plt.show()
 
-def display_image(title, img):
+def display_image(title, img, render_image=True):
     if img.ndim == 3:
         img = img[:,:,::-1]
     plt.title(title)
     plt.imshow(img, cmap="gray")
-    plt.show()
-
+    if render_image:
+        show_image()
+    
+def create_subplot(fig, rows, columns, i, title, img):
+    fig.add_subplot(rows, columns, i)
+    display_image(title,img, render_image=False)
