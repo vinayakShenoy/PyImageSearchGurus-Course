@@ -4,3 +4,4 @@
 - https://setosa.io/ev
 - https://www.fast.ai/
 - https://playground.tensorflow.org/
+- https://github.com/ashishpatel26/Tools-to-Design-or-Visualize-Architecture-of-Neural-Network
