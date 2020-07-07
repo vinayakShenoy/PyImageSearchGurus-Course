@@ -1,5 +1,5 @@
 # ComputerVisionCourse
- - Notes and code from the course on Computer Vision + OpenCV, PyImageSearch Gurus
+ - Notes and code from the course on Computer Vision + OpenCV, [PyImageSearch Gurus](https://www.pyimagesearch.com/)
 ## Important Links:
 - https://setosa.io/ev
 - https://www.fast.ai/
